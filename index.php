@@ -68,13 +68,6 @@
 
 
 
-        .logo span{
-            background-color: #222222;
-            color:white;
-            border: 1px solid black;
-            font-size: 150%;
-            padding:15px  30px 15px 30px ;
-        }
 
 
 
@@ -238,7 +231,7 @@
 
 <body>
 <div class="logo">
-   <span>Logo</span>
+   <span><img src="Logo_ma_table.png" </span>
 </div>
 
 <div class="client">
