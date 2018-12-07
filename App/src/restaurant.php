@@ -31,10 +31,47 @@
     </div>
 </section>
 <section id="menu">
-    <div class="title">
-        <h2>Menu</h2>
+    <div id="heading-menu">
+        <div class="title">
+            <h2>Menu</h2>
+        </div>
+        <div>
+            <img src="../img/delivery.png" alt="" style="width: 30px">
+            Disponible à la livraison
+        </div>
+    </div>
+    <div id="menu-entree" class="menu space-bottom">
+        <div class="menu-line"><span>Nom de l'entrée</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
+        <div class="menu-line"><span>Nom de l'entrée</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
+        <div class="menu-line"><span>Nom de l'entrée</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
+        <div class="menu-line"><span>Nom de l'entrée</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
+        <div class="menu-line"><span>Nom de l'entrée</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
+    </div>
+    <div id="menu-plat" class="menu">
+        <div class="menu-line"><span>Nom du plat</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
+        <div class="menu-line"><span>Nom du plat</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
+        <div class="menu-line"><span>Nom du plat</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
+        <div class="menu-line"><span>Nom du plat</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
+        <div class="menu-line"><span>Nom du plat</span><span>Prix€ <img src="../img/delivery.png" alt="" style="width: 30px; margin-left: 20px"></span></div>
     </div>
 </section>
+<section id="avis">
+    <div class="title">
+        <h2>Avis</h2>
+    </div>
+    <div class="avis-container">
+        <div class="btn link space-bottom">Résever un table</div>
+        <div class="space-bottom">
+            <div style="margin-bottom: 15px"><span>Pseudonyme</span><span style="margin-left: 40px">Date</span></div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet, animi consequuntur culpa doloremque eaque esse, facere facilis, incidunt inventore natus nobis officia optio perferendis placeat praesentium quas recusandae similique.</div>
+        </div>
+        <div class="space-bottom">
+            <div style="margin-bottom: 15px"><span>Pseudonyme</span><span style="margin-left: 40px">Date</span></div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet, animi consequuntur culpa doloremque eaque esse, facere facilis, incidunt inventore natus nobis officia optio perferendis placeat praesentium quas recusandae similique.</div>
+        </div>
+    </div>
 
+
+</section>
 
 <?php require_once ('../Base-Part/Footer-Part/footer.php')?>
