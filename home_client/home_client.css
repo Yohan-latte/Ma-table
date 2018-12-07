@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+}
+header nav a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo-site
+{
+    padding-left: 80px;
+}
+
+
+html {
+    margin:0;
+    padding:0;
+    background: url("img/bg-home-client.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.title-h1 {
+    margin: 44px 0;
+    text-align: center;
+    color: white;
+    padding-top: 190px;
+}
+
+
+.title-h2{
+    color: white;
+    margin-top: 150px;
+    padding-left: 340px;
+}
+.row
+{
+    float:left;
+    width:150px;
+    padding-left: 50px;
+}
+.logo
+{
+    position: absolute;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 4px;
+}
+
+.logo-bot
+{
+    position: absolute;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 64px;
+}
+.form input
+{
+    height:  30px;
+    margin-right: 10px;
+    text-align: center;
+}
+.form
+{
+    background-color: #f9e48a;
+    text-align: center;
+    padding: 20px 5px;
+    margin-left: 330px;
+    margin-bottom: 50px;
+    width: 950px;
+    height: 30px;
+}
+.secondContainer
+{
+    background-color: white;
+}
+h3{
+
+    width: 10%;
+    margin-left: 150px;
+    font-size: 150%;
+    float: left;
+
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin-top: 20px;
+    background-color: red;
+}
+
+
+section{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    margin-left: 30px;
+
+
+}
+
+.rs1{
+    width: 300px;
+    height: 500px;
+    background: url("img/bg-home-resto.jpg")center;
+    background-size: cover;
+}
+
+.rs2{
+    width: 300px;
+    height: 500px;
+    background: url("img/jakub-kapusnak-296881-unsplash.jpg")center;
+    background-size: cover;
+}
+
+.rs3{
+    width: 300px;
+    height: 500px;
+    background: url("img/ali-yahya-707983-unsplash.jpg")center;
+    background-size: cover;
+}
+
+
+
+.rs1::after{
+    content: "Nom restaurant";
+    display: inline-block;
+    width: 200px;
+    background-color: #F1A28E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 450px;
+    margin-left: 100px;
+    color: white;
+
+}
+
+.rs2::after{
+    content: "Nom restaurant";
+    display: inline-block;
+    width: 200px;
+    background-color: #F1A28E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 450px;
+    margin-left: 100px;
+    color: white;
+
+}
+
+
+.rs3::after{
+    content: "Nom restaurant";
+    display: inline-block;
+    width: 200px;
+    background-color: #F1A28E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 450px;
+    margin-left: 100px;
+    color: white;
+
+}
+
+
+.avantages{
+    clear: both;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.avantages div{
+
+    color: #EB574D;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 25%;
+    text-align: center;
+}
+
+.avantages div img{
+    width: 60px;
+
+}
+
+.lorem{
+    font-size: 1rem;
+    color:black;
+    font-weight: normal;
+}
+
+footer{
+    margin-top: 150px;
+    background-color: #F9E48A;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+footer article{
+    padding-right: 50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    color:#EB574D;
+}
+
+
